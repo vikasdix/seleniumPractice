@@ -26,6 +26,7 @@ public class Practicetest1 {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless=new");
 		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
 		
 		
 		WebDriver driver = new ChromeDriver(options);
@@ -72,14 +73,14 @@ public class Practicetest1 {
        
 //       --------
        
-       driver.findElement(By.id("displayed-text")).isDisplayed();
+//       driver.findElement(By.id("displayed-text")).isDisplayed();
        
 //       -----------------
        
-       Actions action = new Actions(driver);
-       
-       WebElement mouse = driver.findElement(By.id("mousehover"));
-       action.scrollToElement(mouse).perform();
+//       Actions action = new Actions(driver);
+//       
+//       WebElement mouse = driver.findElement(By.id("mousehover"));
+//       action.scrollToElement(mouse).perform();
 //       action.moveToElement(mouse).perform();
 //       driver.findElement(By.xpath("//a[text()='Top']")).click();
        

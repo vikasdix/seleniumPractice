@@ -73,7 +73,7 @@ public class Practicetest1 {
        
 //       --------
        
-//       driver.findElement(By.id("displayed-text")).isDisplayed();
+      driver.findElement(By.id("displayed-text")).isDisplayed();
        
 //       -----------------
        
